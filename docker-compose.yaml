@@ -1,0 +1,5 @@
+services:
+    frontend:
+        image: 'prod-hack.gitlab.yandexcloud.net:5050/prod-team-14/frontend:main'
+        ports:
+            - "${FRONTEND_PORT}:3000"
